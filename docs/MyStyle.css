@@ -1,0 +1,10 @@
+/* Zepol's Portfolio Style */
+body{
+    Width: 50%;
+    border:black 2px solid;
+    color: rebeccapurple;
+}
+h1{
+    color:bisque;
+    text-align: center;
+}
