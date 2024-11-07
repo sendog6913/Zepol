@@ -26,12 +26,45 @@ h1{
         padding: 14px 16px;
         text-align: center;
         display: block;
-        float: right;
+        float: left;
         font-size: 17px;
     }
     .NavBar a:hover{
         background: #ddd;
         color: #000;
+    }
+    .RightTopLinks a.active{
+        float: left;
+    }
+    .RightTopLinks a{
+        float: right;
+    }
+    /* Hide the link that should open and close the topnav on small screens */
+    .RightTopLinks .icon {
+        display: none;
+    }
+
+    @media screen and (max-width: 600px) {
+        .RightTopLinks a:not(:first-child) {display: none;}
+        .RightTopLinks a.icon {
+          float: right;
+          display: block;
+        }
+    }
+      
+      
+      @media screen and (max-width: 600px) {
+        .RightTopLinks.responsive {position: relative;}
+        .RightTopLinks.responsive .icon {
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+        .RightTopLinks.responsive a {
+            float: none;
+            display: block;
+            text-align: left;
+          }
     }
 
 .PageContent{

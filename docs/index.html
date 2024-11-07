@@ -4,14 +4,20 @@
     <meta charset="utf-8">
     <title>Zepol's Portfolio</title>
     <link rel="stylesheet" href="MyStyle.css" >
-    <script src="Scripts.js" ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   </head>
   <body>
     <div class="NavBar">
       <div id="Logo"></div>
-      <div id="Links">
-        <a href="#" target="_parent">Contact</a>
+      <div class="RightTopLinks" id="Links">
+        <a href="https://sendog6913.github.io/Zepol" target="_parent" class="active">Home</a>
+        <a href="#" target="_self">Contact</a>
         <a href="#" target="_self">My CV</a>
+        <a href="#" target="_self">Resourses</a>
+        <a href="javascript:void(0);" class="icon" onclick="ResponsiveNav()">
+          <i class="fa fa-bars"></i>
+        </a>
       </div>
     </div>
 
@@ -30,5 +36,7 @@
         <li>React</li>
       </ul>
     </div>
+
+  <script src="Scripts.js" ></script>
   </body>
 </html>
