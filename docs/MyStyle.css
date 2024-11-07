@@ -1,9 +1,9 @@
 /* Zepol's Portfolio Style */
 body{
     Width: 99%;
-    border:black 2px solid;
-    color: rebeccapurple;
-    margin: 0 auto;
+    border-top:black 1px solid;
+    border-bottom:black 1px solid;
+    margin: 0;
 }
 h1{
     color:bisque;
@@ -11,32 +11,32 @@ h1{
 }
 
 /*******************************************/
-/* Custom classes and IDs                  */
+/* Custom Classes and IDs                  */
 /*******************************************/
 .NavBar{
-    background: #b9b9b9;
-    border: dotted #fff 1px;
-    height: 50px;
-    padding: 2px 2px 2px 2px;
+    background: #333;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    top: 0px;
 }
-    .NavBar a:link, a:visited{
-        color: #fff;
+    .NavBar a{
+        color: #f2f2f2;
         text-decoration: none;
-        padding: 14px 25px;
+        padding: 14px 16px;
         text-align: center;
         display: block;
         float: right;
-
-        /*border:#330000 1px solid;*/
+        font-size: 17px;
     }
     .NavBar a:hover{
-        color: #fff;
-        border: #fff 1px dotted;
-        background-color: #330000;
+        background: #ddd;
+        color: #000;
     }
 
 .PageContent{
     width: 80%;
-    border:#330000 solid 2px;
-    margin: 0 auto;
+    height: 1500px;
+    border:#ddd solid 2px;
+    margin: 30px auto;
 }
