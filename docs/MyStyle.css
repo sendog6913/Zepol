@@ -6,8 +6,11 @@ body{
     margin: 0;
 }
 h1{
-    color:bisque;
+    color:rgb(224, 130, 14);
     text-align: center;
+}
+a {
+    color: #0b6480;
 }
 
 /*******************************************/
@@ -16,7 +19,7 @@ h1{
 .NavBar{
     background: #333;
     width: 100%;
-    position: fixed;
+    /*position: fixed;*/
     overflow: hidden;
     top: 0px;
 }
@@ -71,5 +74,5 @@ h1{
     width: 90%;
     height: 1500px;
     border:#ddd solid 2px;
-    margin: 30px auto;
+    margin: 0px auto;
 }
