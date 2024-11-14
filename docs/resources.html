@@ -10,26 +10,22 @@
     <script src="Scripts.js" ></script>
   </head>
   <body>
-    <div class="NavBar fa-solid fa-1x">
-      <div id="Logo"></div>
-      <div class="RightTopLinks" id="Links">
-        <a href="https://sendog6913.github.io/Zepol" target="_parent" class="active">Home</a>
-        <a href="#" target="_self">Contact</a>
-        <a href="#" target="_self">My CV</a>
-        <a href="#" target="_self">Resources</a>
-        <a href="javascript:void(0);" class="icon" onclick="ResponsiveNav()">
-          <i class="fa-solid fa-bars"></i>
-        </a>
-      </div>
-    </div>
+    <!-- Load Dynamic Top Navigation Bar -->
+    <div id="NavBarTarget"></div>
+      <script>
+        LoadMainNavigation(); 
+      </script>
 
     <div class="PageContent">
-
+      <a href="index.html" title="Go Back"><i class="fa-solid fa-arrow-left-long fa-2x"></i></a>
+      
       <center><h1 class="fa-regular fa-2x fa-fade">Resources</h1></center>
       <p>test - Hi Tavo and David!!</p>
 
-      <a href="index.html" title="Go Back"><i class="fa-solid fa-arrow-left-long fa-2x"></i></a>
-
+      <h2>SharePoint JSON Samples:</h2>
+      <ul>
+        <li><a href="https://pnp.github.io/List-Formatting/" target="_blank">SharePoint Formatting Samples</a></li>
+      </ul>
 
     </div>
 
