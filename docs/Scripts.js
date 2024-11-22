@@ -6,7 +6,7 @@ function LoadMainNavigation() {
         <div class="RightTopLinks" id="Links">
           <a href="https://sendog6913.github.io/Zepol" target="_parent" class="active">Home</a>
           <a href="#" target="_self">Contact</a>
-          <a href="#" target="_self">My CV</a>
+          <a href="cv.html" target="_self">My CV</a>
           <a href="resources.html" target="_self">Resources</a>
           <a href="javascript:void(0);" class="icon" onclick="ResponsiveNav()">
             <i class="fa fa-bars"></i>
