@@ -7,6 +7,7 @@ function LoadMainNavigation() {
           <a href="https://sendog6913.github.io/Zepol" target="_parent" class="active">Home</a>
           <a href="cv.html" target="_self">My CV</a>
           <a href="resources.html" target="_self">Resources</a>
+          <a href="portfolio.html" target="_self">Portfolio</a>
           <a href="javascript:void(0);" class="icon" onclick="ResponsiveNav()">
             <i class="fa fa-bars"></i>
           </a>
@@ -34,7 +35,7 @@ function LoadMainNavigation() {
 function LoadMainFooter() {
     const htmlCode = `
         <div class="footer">
-          <p>&copy; David Lopez Jr. <a href="https://www.linkedin.com/in/davidlopezjr" target="_blank" title="David Lopez Jr.'s LinkedIn Profile"><i class="fa-brands fa-linkedin fa-regular fa-lg" style="color: whitesmoke"></i></a> </p>
+          <p style="text-align: center;">&copy; Zepol's Portfolio by David Lopez Jr. <a href="https://www.linkedin.com/in/davidlopezjr" target="_blank" title="David Lopez Jr.'s LinkedIn Profile"><i class="fa-brands fa-linkedin fa-regular fa-lg" style="color: whitesmoke"></i></a> </p>
         </div>
       `;
   
