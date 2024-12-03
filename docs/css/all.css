@@ -16,8 +16,8 @@
 .fa-sharp-solid,
 .fa-classic,
 .fa {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
+  /*-moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;*/
   display: var(--fa-display, inline-block);
   font-style: normal;
   font-variant: normal;
@@ -6198,7 +6198,7 @@ readers do not read off random characters that represent icons */
   padding: 0;
   margin: -1px;
   overflow: hidden;
-  clip: rect(0, 0, 0, 0);
+  /*clip: rect(0, 0, 0, 0);*/
   white-space: nowrap;
   border-width: 0; }
 
@@ -6210,7 +6210,7 @@ readers do not read off random characters that represent icons */
   padding: 0;
   margin: -1px;
   overflow: hidden;
-  clip: rect(0, 0, 0, 0);
+  */clip: rect(0, 0, 0, 0);*/
   white-space: nowrap;
   border-width: 0; }
 :root, :host {
