@@ -2,18 +2,18 @@
 body{
     Width: 99%;
     margin: 0;
-    background-color: #F2F2F2;
+    background-color: #D9CCB6;
 }
 h1{
-    color: #8C0303;
+    color: #558078;
     text-align: center;
 }
 a {
-    color: #F20505;
+    color: #558078;
     text-decoration: none;
 }
   a:hover{
-    color: #8C0303;
+    color: #C1EBC7;
     text-decoration: underline dotted 1px;
   }
 p{
@@ -25,14 +25,14 @@ p{
 /* Custom Classes and IDs                  */
 /*******************************************/
 .NavBar{
-    background: #260101;
+    background: #243240;
     width: 100%;
     /*position: fixed;*/
     overflow: hidden;
     top: 0px;
 }
     .NavBar a{
-        color: #F2F2F2;
+        color: #ECE6FB;
         text-decoration: none;
         padding: 14px 16px;
         text-align: center;
@@ -41,8 +41,8 @@ p{
         font-size: 17px;
     }
     .NavBar a:hover{
-        background: #F2F2F2;
-        color: #260101;
+        background: #D9CCB6;
+        color: #558078;
     }
     .RightTopLinks a.active{
         float: left;
@@ -81,7 +81,7 @@ p{
 .PageContent{
     width: 90%;
     min-height: 300px;;
-    border:#ddd solid 2px;
+    border:#243240 solid 1px;
     margin: 0px auto;
     padding: 10px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -108,9 +108,9 @@ p{
         }
 
     .ToDoList{
-        background-color: #260101;
-        border: 1px solid #F20505;
-        color: #F2F2F2;
+        background-color: #558078;
+        border: 1px solid #C1EBC7;
+        color: #000000;
         float: right;
         margin: 10px;
         padding: 4px;
@@ -119,10 +119,10 @@ p{
         margin: 0;
     }
     .ToDoList a{
-      color: lightskyblue;
+      color: #C1EBC7;
     }
     .ToDoList a:hover{
-      color:wheat;
+      color:#ECE6FB;
     }
     /* Portfolio Galleries */
     div.gallery {
@@ -178,7 +178,7 @@ p{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #590202;
-    color: #F2F2F2;
+    background-color: #243240;
+    color: #ECE6FB;
     text-align: center;
     }
