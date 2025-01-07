@@ -2,22 +2,23 @@
 body{
     Width: 99%;
     margin: 0;
-    background-color: #D9CCB6;
+    background-color: #F2F2F2;
 }
 h1{
-    color: #558078;
+    color: #365953;
     text-align: center;
 }
 a {
-    color: #558078;
+    color: #733B2F;
     text-decoration: none;
 }
   a:hover{
-    color: #C1EBC7;
+    color: #BFAF80;
     text-decoration: underline dotted 1px;
   }
 p{
     text-align: justify;
+    color: #0D0D0D;
 }
 
 
@@ -25,14 +26,14 @@ p{
 /* Custom Classes and IDs                  */
 /*******************************************/
 .NavBar{
-    background: #243240;
+    background: #365953;
     width: 100%;
     /*position: fixed;*/
     overflow: hidden;
     top: 0px;
 }
     .NavBar a{
-        color: #ECE6FB;
+        color: #7CA69A;
         text-decoration: none;
         padding: 14px 16px;
         text-align: center;
@@ -41,8 +42,8 @@ p{
         font-size: 17px;
     }
     .NavBar a:hover{
-        background: #D9CCB6;
-        color: #558078;
+        background: #7CA69A;
+        color: #0D0D0D;
     }
     .RightTopLinks a.active{
         float: left;
@@ -81,7 +82,7 @@ p{
 .PageContent{
     width: 90%;
     min-height: 300px;;
-    border:#243240 solid 1px;
+    border:#0D0D0D solid 1px;
     margin: 0px auto;
     padding: 10px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -108,21 +109,22 @@ p{
         }
 
     .ToDoList{
-        background-color: #558078;
-        border: 1px solid #C1EBC7;
-        color: #000000;
+        background-color: #BFAF80;
+        border: 1px solid #0D0D0D;
+        color: #F2F2F2;
         float: right;
         margin: 10px;
         padding: 4px;
     }
     .ToDoList h2{
         margin: 0;
+        color: #365953;
     }
     .ToDoList a{
-      color: #C1EBC7;
+      color: #733B2F;
     }
     .ToDoList a:hover{
-      color:#ECE6FB;
+      color:#365953;
     }
     /* Portfolio Galleries */
     div.gallery {
@@ -178,7 +180,10 @@ p{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #243240;
-    color: #ECE6FB;
+    background-color: #365953;
+    color: #7CA69A;
     text-align: center;
+    }
+    .footer p{
+      color: #7CA69A;
     }

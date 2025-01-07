@@ -35,7 +35,7 @@ function LoadMainNavigation() {
 function LoadMainFooter() {
     const htmlCode = `
         <div class="footer">
-          <p style="text-align: center;">&copy; Zepol's Portfolio by David Lopez Jr. <a href="https://www.linkedin.com/in/davidlopezjr" target="_blank" title="David Lopez Jr.'s LinkedIn Profile"><i class="fa-brands fa-linkedin fa-regular fa-lg" style="color: #ECE6FB"></i></a> </p>
+          <p style="text-align: center;">&copy; Zepol's Portfolio by David Lopez Jr. <a href="https://www.linkedin.com/in/davidlopezjr" target="_blank" title="David Lopez Jr.'s LinkedIn Profile"><i class="fa-brands fa-linkedin fa-regular fa-lg" style="color: #7CA69A"></i></a> </p>
         </div>
       `;
   
